@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MobileLiveTest</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="denied_permission_toast_text">Permission is required to display location correctly</string>
+    <string name="details">Details</string>
+    <string name="radius">Radius</string>
+    <string name="retweet">Retweet</string>
+    <string name="favorite">Favorite</string>
+    <string name="ok">OK</string>
+    <string name="search_hint">Enter search text</string>
+    <string name="new_radius_title">New radius</string>
+    <string name="set_new_radius">Set new radius</string>
+    <string name="km">km</string>
+    <string name="tweet_favorited">Tweet has been added to favorite</string>
+    <string name="tweet_retweeted">Tweet has been retweeted</string>
+</resources>

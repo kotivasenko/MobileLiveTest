@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mapsFragment">
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.ivasenko.mobilelivetest.ui.map.MapsFragment"
+        android:label="maps_fragment"
+        tools:layout="@layout/maps_fragment" />
+    <fragment
+        android:id="@+id/tweetDetailsFragment"
+        android:name="com.ivasenko.mobilelivetest.ui.details.TweetDetailsFragment"
+        android:label="tweet_details_fragment"
+        tools:layout="@layout/tweet_details_fragment" />
+    <fragment
+        android:id="@+id/searchTweetsFragment"
+        android:name="com.ivasenko.mobilelivetest.ui.search.SearchTweetsFragment"
+        android:label="search_tweets_fragment"
+        tools:layout="@layout/search_tweets_fragment" />
+</navigation>

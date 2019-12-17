@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_heart_outline"
+        android:title="@string/favorite"
+        app:iconTint="@color/white"/>
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/retweet"
+        android:icon="@drawable/ic_twitter_retweet"
+        android:title="@string/retweet"
+        app:iconTint="@color/white"/>
+</menu>
